@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "admin_table")  //this annotation
+@Table(name = "admin_table")  //this annotation denotes table name 
 public class Admin {
 
 	@Id
